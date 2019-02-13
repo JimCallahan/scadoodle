@@ -25,3 +25,7 @@ cat > .gitignore <<EOF
     git add .gitignore README.md
     git commit -m "initialized node"
     
+    
+### Running
+
+    DEBUG=scadoodle:* npm start
