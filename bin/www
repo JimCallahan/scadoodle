@@ -9,6 +9,11 @@ var debug = require('debug')('scadoodle:server');
 var http = require('http');
 
 /**
+ * For AppEngine HTTPS
+ */
+app.set('trust proxy', true);
+
+/**
  * Get port from environment and store in Express.
  */
 
